@@ -1,0 +1,35 @@
+.notifications {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+.header__title {
+  color: var(--very-dark-blue);
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+
+.header__number {
+  color: var(--white);
+  background-color: var(--blue);
+  border-radius: 6px;
+  font-weight: 500;
+  padding: .2rem .6rem;
+}
+
+.notifications__mark-as-read {
+  background-color: var(--white);
+  border: 0;
+  color: var(--dark-grayish-blue);
+  font-size: .86rem;
+  font-weight: 500;
+  outline: none;
+}

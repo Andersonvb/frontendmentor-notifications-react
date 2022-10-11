@@ -29,7 +29,12 @@
   background-color: var(--white);
   border: 0;
   color: var(--dark-grayish-blue);
+  cursor: pointer;
   font-size: .86rem;
   font-weight: 500;
   outline: none;
+}
+
+.notifications__mark-as-read:hover {
+  color: var(--blue);
 }

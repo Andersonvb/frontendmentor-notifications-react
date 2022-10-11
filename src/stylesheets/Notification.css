@@ -27,6 +27,8 @@
 
 .information__container {
   display: flex;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .information__paragraph {
@@ -37,13 +39,22 @@
 
 .information__name {
   color: var(--very-dark-blue);
+  cursor: pointer;
   font-weight: 800;
+}
+.information__name:hover {
+  color: var(--blue);
 }
 
 .information__important {
   color: var(--dark-grayish-blue);
+  cursor: pointer;
   font-weight: 800;
 }
+.information__important:hover {
+  color: var(--blue);
+}
+
 .information__link {
   color: var(--blue);
   font-weight: 800;
@@ -67,10 +78,11 @@
 .image {
   width: 45px;
   height: 45px;
+  cursor: pointer;
 }
 
 .information__message {
-  border: 1px solid var(--grayish-blue);
+  border: 1px solid var(--light-grayish-blue-1);
   border-radius: 1rem;
   margin: 1rem 0;
   padding: 1rem;
@@ -79,6 +91,9 @@
   color: var(--dark-grayish-blue);
   font-size: .92rem;
   line-height: 1.2rem;
+}
+.information__message:hover {
+  background-color: var(--light-grayish-blue-2);
 }
 
 .hidden {

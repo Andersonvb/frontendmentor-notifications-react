@@ -1,7 +1,6 @@
 import './App.css';
 import Header from './components/Header.js'
 import Notification from './components/Notification';
-import img from './assets/images/avatar-mark-webber.webp';
 
 function App() {
   return (

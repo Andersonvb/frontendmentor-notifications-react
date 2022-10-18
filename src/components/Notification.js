@@ -57,7 +57,7 @@ const Notification = ({ name, post, specialText, specialTextType, time, alert, m
             <div className={alert ? 'point' : 'hidden'}></div>
           </p>
 
-          <img className={image ? 'image' : 'hidden'} src={picture} />
+          <img className={image ? 'image' : 'hidden'} src={picture} alt='user-file'/>
 
         </div>
 

@@ -1,10 +1,20 @@
+.main-container {
+  height: fit-content;
+}
+
 @media screen and (min-width: 720px) {
   .App {
+    align-items: center;
+    background-color: var(--very-light-grayish-blue);
     display: flex;
     justify-content: center;
+    height: 100vh;
+    padding: 40px;
   }
   
   .main-container {
+    background-color: var(--white);
+    border-radius: 1rem;
     width: 720px;
   }
 }

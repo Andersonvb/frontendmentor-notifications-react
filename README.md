@@ -13,11 +13,12 @@
 
 ### Screenshot
 
-![](./screenshot.png)
+![](./src/assets/images/mobile-screenshot.png)
+![](./src/assets/images/desktop-screenshot.png)
 
 ### Links
 
-- URL: [QR Code](https://andersonvb.github.io/frontendmentor-qr-code-/)
+- URL: [Site](https://frontendmentor-notifications-react.vercel.app/)
 
 ## My process
 
